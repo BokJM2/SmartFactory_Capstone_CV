@@ -1,0 +1,111 @@
+\documentclass[letterpaper, 10pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[hidelinks]{hyperref} % Required for hyperlinks
+\usepackage[top=0.35in, bottom=0.35in, left=0.7in, right=0.7in]{geometry} % Page margins
+\usepackage{enumitem}
+\setlist[itemize]{itemsep=0pt, topsep=1pt, parsep=0pt}
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{4pt}{1pt}
+\pagestyle{empty} % No page numbers
+\begin{document}
+%----------HEADING----------
+\begin{center}
+    \textbf{\LARGE JaeMin Bok} \\ \vspace{1pt}
+    \href{mailto:qhrwoals1@skku.edu}{\underline{qhrwoals1@skku.edu}} $|$
+    \href{https://github.com/BokJM2}{\underline{github.com/BokJM2}} $|$
+    010.8750.4130 $|$
+    Suwon, South Korea
+\end{center}
+%-----------TECHNICAL SKILLS-----------
+\section*{Technical Skills}
+\hrule
+\vspace{1pt}
+\begin{itemize}
+    \item[] \textbf{Programming}: Python, JavaScript, SQL (PostgreSQL, MySQL, MS SQL Server), C
+    \item[] \textbf{Frontend \& Web}: React, FastAPI, Streamlit, REST API
+    \item[] \textbf{AI / ML \& Tools}: LLM \& RAG application integration, LangChain, Unity, Figma, Notion, GitHub
+    \item[] \textbf{Languages}: Korean (Native), English (Intermediate)
+\end{itemize}
+%-----------EXPERIENCE-----------
+\section*{Experience}
+\hrule
+\vspace{1pt}
+\begin{itemize}
+    \item[]
+        \textbf{Software Engineering Internship} \hfill Mar. 2025 -- Feb. 2026 \\
+        \textit{Smart Quality Laboratory} \hfill \textit{Suwon, South Korea}
+        \begin{itemize}
+            \item Built a digital twin using Unity to achieve space quality in a plant environment.
+            \item Developed a color leadership game UI using Unity.
+            \item Created an LLM-based manual assistant interface designed for senior users.
+        \end{itemize}
+    \item[]
+        \textbf{Undergraduate Research Student} \hfill Mar. 2026 -- Present \\
+        \textit{e-Manufacturing Laboratory} \hfill \textit{Suwon, South Korea}
+        \begin{itemize}
+            \item Studied Digital Twin technologies and their applications in manufacturing.
+            \item Researched optimization algorithms for production scheduling problems.
+        \end{itemize}
+\end{itemize}
+%-----------SELECTED PROJECTS-----------
+\section*{Selected Projects}
+\hrule
+\vspace{1pt}
+\begin{itemize}
+    \item[]
+        \textbf{NeuroFactory: Ontology-Grounded Hybrid RAG for Natural Language Querying in MES} \hfill \textit{Capstone Design Project} \\
+        \textit{Role: Frontend Developer} \vspace{1pt}
+        \begin{itemize}
+            \item Built the React-based frontend UI for an on-premises NL-to-SQL system, letting factory engineers submit Korean/English natural-language queries over a live MES (THiRA MES 3.1.0) and view results without SQL knowledge.
+            \item Implemented query input, tabular result visualization, validation-error feedback, and diagnostics views in the user interface.
+            \item Integrated the frontend with the FastAPI backend (REST API), wiring the end-to-end query pipeline (retrieval $\rightarrow$ SQL generation $\rightarrow$ safety validation $\rightarrow$ execution) to the UI.
+            \item Contributed to a system achieving \textbf{89.5\% execution accuracy} and \textbf{100\% valid-SQL rate} on the MES-NL2SQL-Gold benchmark (n=200), a \textbf{+52.5 pp} gain over the schema-only baseline.
+        \end{itemize}
+    \item[]
+        \textbf{Automatic Semiconductor Fault Diagnosis} \\
+        \textit{Role: Developer} \vspace{1pt}
+        \begin{itemize}
+            \item Designed an automatic semiconductor fault diagnosis system using computer vision methods and Streamlit.
+            \item Applied image preprocessing and feature extraction techniques to improve defect detection accuracy.
+            \item Built a mapping framework to trace classified defects back to corresponding faulty manufacturing processes.
+            \item Implemented an interactive interface using Streamlit for real-time visualization and analysis.
+        \end{itemize}
+\end{itemize}
+%-----------RESEARCH & ACHIEVEMENTS-----------
+\section*{Research \& Achievements}
+\hrule
+\vspace{1pt}
+\begin{itemize}
+    \item[] \textbf{Patent (Filed)}: ``Method and System for Role-Based Natural Language Query Processing in Manufacturing Execution Systems'' \hfill 2026 \\
+    \textit{Korean Patent Application No. R-2026-0542-KR-1 (filed Jun. 2026)}
+    \item[] \textbf{Software Copyright Registration}: ``NeuroFactory --- Natural Language Query Engine for Manufacturing Execution Systems'' \hfill 2026 \\
+    \textit{Korea Copyright Commission, Reg. No. C-2026-030625}
+\end{itemize}
+%-----------PUBLICATIONS-----------
+\section*{Publications}
+\hrule
+\vspace{1pt}
+\begin{itemize}
+    \item[] B. Jung, W. Kim, G. Suh, \textbf{J. Bok}, and J. Jeong, ``NeuroFactory: Ontology-Grounded Hybrid RAG for Natural Language Querying in Manufacturing Execution Systems,'' in \textit{Proc. IEEE Int. Conf. Big Data (BigData) Workshops, BD-SMDT}, 2026. (under review)
+\end{itemize}
+%-----------HONORS & AWARDS-----------
+\section*{Honors \& Awards}
+\hrule
+\vspace{1pt}
+\begin{itemize}
+    \item[] \textbf{ADSP} (Advanced Data Analytics Semi-Professional) \hfill 2024
+\end{itemize}
+%-----------EDUCATION-----------
+\section*{Education}
+\hrule
+\vspace{1pt}
+\begin{itemize}
+    \item[]
+        \textbf{Sungkyunkwan University (SKKU)} \hfill Mar. 2023 -- Present \\
+        \textit{B.S. in System Management Engineering and Software Engineering} \hfill \textit{Suwon, South Korea}
+        \begin{itemize}
+            \item Relevant Coursework: Data Structures, Algorithms, Databases, Computer Systems, Machine Learning
+        \end{itemize}
+\end{itemize}
+%-------------------------------------------
+\end{document}
